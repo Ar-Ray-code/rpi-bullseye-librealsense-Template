@@ -3,6 +3,19 @@
 
 <br>
 
+## Install built package
+
+```bash
+LIBREALSENSE_ZIP="librealsense2-aarch64.zip"
+
+wget https://github.com/Ar-Ray-code/rpi-bullseye-librealsense-Template/releases/download/0.1.0/librealsense2-aarch64.zip -O ${LIBREALSENSE_ZIP}
+unzip ./${LIBREALSENSE_ZIP}
+sudo cp -ur ./librealsense2/* /usr/local/
+rm -rf ./librealsense2-aarch64.zip ./librealsense2/
+```
+
+<br>
+
 ## Build and install librealsense
 
 > 8GB RAM Raspberry Pi4 is required
