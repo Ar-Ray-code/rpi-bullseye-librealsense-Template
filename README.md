@@ -9,6 +9,12 @@
 - zip
 
 ```bash
+# apt
+sudo apt-get install git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev -y
+
+```
+
+```bash
 LIBREALSENSE_ZIP="librealsense2-aarch64.zip"
 
 curl -O https://github.com/Ar-Ray-code/rpi-bullseye-librealsense-Template/releases/download/0.1.0/librealsense2-aarch64.zip -O ${LIBREALSENSE_ZIP}
